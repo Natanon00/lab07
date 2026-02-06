@@ -1,7 +1,7 @@
-name: deploy-on-push
+name: deploy on push
 on: [push]
 jobs:
-  deploy:
+  deploy-app:
     runs-on: ubuntu-latest
     steps:
       - name: checkout the code to build server
